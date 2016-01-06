@@ -1190,7 +1190,7 @@
 		"NormalY"		"10"
 		"EngineerY"		"170"
 		"zpos"			"2"
-		"wide"			"200"
+		"wide"			"280"
 		"tall"			"280"
 		"visible"		"1"
 		"enabled"		"1"
@@ -1222,11 +1222,11 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"r270"
-		"ypos"					"300"
+		"xpos"					"r200"
+		"ypos"					"rs1"
 		"zpos"					"10"
-		"wide"					"270"
-		"tall"					"180"
+		"wide"					"190"
+		"tall"					"f0"
 	}
 
 	HudTFCrosshair
@@ -1326,9 +1326,9 @@
 	}
 
 
-	"CTFKillStreakNotice"
+	"CTFStreakNotice"
 	{
-		"fieldName"		"CTFKillStreakNotice"
+		"fieldName"		"CTFStreakNotice"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"640"
@@ -1365,6 +1365,17 @@
 		"PaintBackgroundType"	"0"
 	}
 
+"ItemAttributeTracker"
+	{
+		"fieldName"         "ItemAttributeTracker"
+		"visible"                 "1"
+		"enabled"                 "1"
+		"xpos"                        "0"
+		"ypos"                        "0"
+		"wide"                        "f5"
+		"tall"                        "f0"
+		"PaintBackgroundType"        "0"
+  }
 
 	HudMiniGame
 	{
@@ -1375,5 +1386,51 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
+	}
+
+	"QuestNotificationPanel"
+	{
+	  "fieldName"        "QuestNotificationPanel"
+	  "visible" "1"
+	  "enabled" "1"
+	  "xpos"        "0"
+	  "ypos"        "0"
+	  "wide"        "f0"
+	  "tall"        "f0"
+	}
+
+	"QuestLogContainer"
+	{
+	  "ControlName"                "EditablePanel"
+	  "fieldName"                 "QuestLogContainer"
+	  "visible"                 "1"
+	  "enabled"                 "1"
+	  "xpos"                        "0"
+	  "ypos"                        "0"
+	  "wide"                         "f0"
+	  "tall"                         "f0"
+	}
+
+	"MatchMakingContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"MatchMakingContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}
+
+	HudSpectatorExtras
+	{
+		"fieldName" "HudSpectatorExtras"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
 	}
 }
